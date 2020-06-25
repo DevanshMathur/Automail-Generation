@@ -16,7 +16,14 @@ function sendEmails() {
     to: row[1],
     subject: sub,
     htmlBody: "Hello " + row[2] +"how are you\n i hope all is good"
-    +"<br><img src='cid:Photo'><br>", 
+    +"<br> <img src='cid:Photo'> <br> " + "Wishing for a brighter future <br>" 
+	+"<strong>Trailblazer Together Team</strong><br>"
+	+"For Queries :<br>"
+	+"<h4><strong>Mail us:</strong></h4>"
+	+"<h5><a href='mailto:trailblazertogether@gmail.com'>trailblazertogether@gmail.com</a></h5>"
+	+"<h4><strong>Call us:</strong></h4>"
+	+"<h5><a href='https://wa.me/+919456622845'>(+91)-945-662-2845</a></h5>"
+	+"<h5><a href='tel:(+91)-820-970-5181'>(+91)-820-970-5181</a></h5>",
     inlineImages:{ Photo : pic }
   });
 
